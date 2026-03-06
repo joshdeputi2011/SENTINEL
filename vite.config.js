@@ -3,8 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 5173,
-    open: true, // auto-opens browser on npm run dev
-  },
+  base: '/SENTINEL/', // Replace 'SENTINEL' with your actual repo name
 })
